@@ -36,10 +36,12 @@ do_action('blocksy:footer:after');
 
 <?php wp_footer(); ?>
 
-<script src="https://assets.codepen.io/16327/SplitText3-beta.min.js?b=15"></script>
-<script src="https://assets.codepen.io/16327/ScrambleTextPlugin3.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/SplitText.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrambleTextPlugin.min.js"></script>
 
 <script>
+    gsap.registerPlugin(ScrambleTextPlugin,SplitText)
+
     const st = SplitText.create("p", {type: "chars", charsClass: "char"});
 
     st.chars.forEach((char) => {
