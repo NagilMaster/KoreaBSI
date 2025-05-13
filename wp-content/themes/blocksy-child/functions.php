@@ -18,3 +18,7 @@ add_action( 'wp_enqueue_scripts', function () {
 
 /* GSAP */
 require_once $_SERVER['DOCUMENT_ROOT'].'/wp-content/themes/blocksy-child/init/gsap.php';
+
+
+/* Shortcodes */
+require_once $_SERVER['DOCUMENT_ROOT'].'/wp-content/themes/blocksy-child/shortcodes/main-slogan.php';

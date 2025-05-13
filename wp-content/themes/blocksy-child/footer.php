@@ -17,10 +17,19 @@ do_action('blocksy:content:bottom');
 
 
 <section class="footer-section">
+    <video id="introVideo" autoplay muted loop playsinline>
+        <source src="https://videos.pexels.com/video-files/3129671/3129671-uhd_2560_1440_30fps.mp4" type="video/mp4">
+    </video>
+
+    <!-- 🔲 반투명 오버레이 -->
+    <div class="videoOverlay"></div>
+
     <div class="text-block">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-            ex ea commodo consequat.</p>
+        <p>
+            In the vast complexity of the human brain lies the true foundation of happiness and success.
+            The Korea Institute of Brain Science brings together leading experts in neuroscience from Korea and around the world to explore the full potential of the human mind.
+            Through advanced brain training systems and science-based educational programs, we aim to create a healthier, more balanced, and fulfilling life experience for all.
+        </p>
     </div>
 </section>
 
