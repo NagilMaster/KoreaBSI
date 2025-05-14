@@ -51,11 +51,14 @@ if ($page_structure === 'none' || blocksy_post_uses_vc()) {
 
 
 ?>
+<link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri() ?>/assets/css/front-page.css">
 
 <div id="introBox">
     <!-- 🎥 배경 영상 -->
     <video id="introVideo" autoplay muted loop playsinline>
-        <source src="https://videos.pexels.com/video-files/3129671/3129671-uhd_2560_1440_30fps.mp4" type="video/mp4">
+        <!-- <source src="https://videos.pexels.com/video-files/3129671/3129671-uhd_2560_1440_30fps.mp4" type="video/mp4">-->
+        <source src="https://nagil-wordpress.s3.ap-northeast-2.amazonaws.com/videos/korea-bsi-bg-video-1.mov"
+                type="video/mp4">
     </video>
 
     <!-- 🔲 반투명 오버레이 -->
@@ -73,6 +76,20 @@ if ($page_structure === 'none' || blocksy_post_uses_vc()) {
     <?php echo blocksy_get_v_spacing() ?>>
 
     <?php do_action('blocksy:single:container:top'); ?>
+
+    <section id="introSection">
+        <div class="video-wrapper">
+            <video autoplay muted loop playsinline id="bgVideo">
+                <source src="https://nagil-wordpress.s3.ap-northeast-2.amazonaws.com/videos/korea-bsi-bg-video-1.mov"
+                        type="video/mp4">
+            </video>
+            <div class="bg-filter"></div>
+        </div>
+        <div class="intro-content">
+            <h1><span style="font-size: 130%;">뇌속에 인간의 성공과 행복이 있다</span></h1>
+            <h6><span style="font-size: 130%;">Within the Brain Lies Human Success and Happiness</span></h6>
+        </div>
+    </section>
 
     <?php
     /**
@@ -103,7 +120,7 @@ get_footer();
         const introBox = document.getElementById('introBox');
         const mainContent = document.getElementById('mainContent');
 
-        const tl = gsap.timeline({ defaults: { ease: 'power3.out' } });
+        const tl = gsap.timeline({defaults: {ease: 'power3.out'}});
 
         // 1. 로고 페이드 인
         tl.to(logo, {
@@ -142,3 +159,4 @@ get_footer();
             }, "-=0.5");
     });
 </script>
+<script src="<?php echo get_stylesheet_directory_uri() ?>/assets/js/front-page.js"></script>

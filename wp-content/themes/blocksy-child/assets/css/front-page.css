@@ -1,0 +1,134 @@
+/*Intro*/
+
+body.home #main {
+    background: white;
+
+    article {
+        margin-top: 150px;
+    }
+}
+
+/* ✅ 메인 콘텐츠 (처음엔 가려짐) */
+#mainContent {
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+    clip-path: circle(calc(0% + 90px) at center);
+    max-height: 100vh; /* ✅ 처음엔 전체 화면 고정 */
+    position: relative;
+    overflow: hidden;
+    background: white;
+
+    /*animation: ani_circle 3s 3.3s;*/
+    /*animation-fill-mode: both;*/
+}
+
+#introBox {
+    position: fixed;
+    inset: 0;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+#introVideo {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 0;
+}
+
+.videoOverlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+#introLogo {
+    z-index: 10;
+
+    img {
+        width: 35vw;
+        height: auto;
+        /*filter: drop-shadow(0 0 20px #00f0ff);*/
+        opacity: 0;
+        transform: scale(0.8);
+        transition: all 0.5s ease;
+    }
+}
+
+#revealMask {
+    position: fixed;
+    inset: 0;
+    background: #000;
+    clip-path: circle(0% at center);
+    z-index: 4;
+    pointer-events: none;
+}
+#introSection {
+    width: 100%;
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+    padding: 0;
+    border-radius: 0;
+    transition: all 0.3s ease;
+    color: white;
+    margin-bottom: 200px;
+
+    .video-pin {
+        position: relative;
+        height: 100%;
+        width: 100%;
+    }
+
+    .video-wrapper {
+        width: 100%;
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: 100%;
+        border-radius: 0;
+        overflow: hidden;
+        margin: auto;
+    }
+
+    .intro-content {
+        padding: 30px;
+        position: relative;
+        z-index: 2;
+        color: #fff;
+        text-align: center;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        h1, h6 {
+            color: white;
+        }
+    }
+}
+
+#bgVideo {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 0;
+}
+
+.bg-filter {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
