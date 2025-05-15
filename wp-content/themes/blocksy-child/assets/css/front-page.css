@@ -124,10 +124,21 @@ body.home #main {
     }
 }
 
-#about-section{
+.intro-page{
+    width: 100%;
+    position: relative;
+}
+
+#aboutSection{
     position: relative;
     z-index: 1;
     min-height: 50vh;
+    .content-wrapper {
+        max-width: 600px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
 }
 
 #bgVideo {

@@ -17,4 +17,19 @@ window.addEventListener("DOMContentLoaded", () => {
             borderRadius: '45px',
             ease: "power1.in",
         });
+
+    gsap.timeline({
+        scrollTrigger: {
+            scrub: 1,
+            trigger: ".pin-gallery",
+            start: "top top",
+            end: '+=600',
+            pin: '.pin-gallery',
+            marker: true,
+        },
+    }).from("img.lab-img", {
+        scale: 1.5,
+        opacity: 0.3,
+        ease: "power2.out"
+    });
 });

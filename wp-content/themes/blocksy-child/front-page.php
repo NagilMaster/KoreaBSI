@@ -93,11 +93,17 @@ if ($page_structure === 'none' || blocksy_post_uses_vc()) {
             </div>
         </div>
     </section>
-    <article class="page type-page status-publish hentry">
-        <section id="about-section" >
-            asdf
+    <div class="intro-page">
+        <section id="aboutSection">
+            <div class="content-wrapper">
+                <h1>한국뇌과학연구소는 뉴로피드백분야의 연구와 교육을 전문으로 하는 기관입니다</h1>
+                <h4>한국뇌과학연구소는 뇌의 가능성을 과학으로 증명하고, 당신의 삶 속 실질적인 변화로 연결합니다</h4>
+            </div>
+            <div class="pin-gallery">
+                <img src="/wp-content/themes/blocksy-child/assets/images/logo/korea-bsi-logo-white.png" alt="Lab images" class="lab-img">
+            </div>
         </section>
-    </article>
+    </div>
     <?php
     /**
      * Note to code reviewers: This line doesn't need to be escaped.
