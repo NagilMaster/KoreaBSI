@@ -93,8 +93,10 @@ if ($page_structure === 'none' || blocksy_post_uses_vc()) {
             </div>
         </div>
     </section>
-    <article id="about-section" class="page type-page status-publish hentry">
-        asdf
+    <article class="page type-page status-publish hentry">
+        <section id="about-section" >
+            asdf
+        </section>
     </article>
     <?php
     /**
