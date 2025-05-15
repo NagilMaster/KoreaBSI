@@ -86,11 +86,16 @@ if ($page_structure === 'none' || blocksy_post_uses_vc()) {
             <div class="bg-filter"></div>
         </div>
         <div class="intro-content">
-            <h1><span style="font-size: 130%;">뇌속에 인간의 성공과 행복이 있다</span></h1>
-            <h6><span style="font-size: 130%;">Within the Brain Lies Human Success and Happiness</span></h6>
+            <div class="content-wrapper">
+                <h1><span style="font-size: 130%;">뇌속에 인간의 성공과 행복이 있다</span></h1>
+                <h6><span style="font-size: 130%;">Within the Brain Lies Human Success and Happiness</span></h6>
+                <p>한국뇌과학연구소는 뇌의 가능성을 삶의 에너지로 전환합니다</p>
+            </div>
         </div>
     </section>
-
+    <section id="about-section">
+        ㅁㄴㅇㄹ
+    </section>
     <?php
     /**
      * Note to code reviewers: This line doesn't need to be escaped.

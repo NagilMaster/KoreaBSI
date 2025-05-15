@@ -3,7 +3,7 @@
 body.home #main {
     background: white;
 
-    article {
+    article.page {
         margin-top: 150px;
     }
 }
@@ -71,6 +71,7 @@ body.home #main {
     z-index: 4;
     pointer-events: none;
 }
+
 #introSection {
     width: 100%;
     position: relative;
@@ -81,6 +82,7 @@ body.home #main {
     transition: all 0.3s ease;
     color: white;
     margin-bottom: 200px;
+    z-index: 10;
 
     .video-pin {
         position: relative;
@@ -111,10 +113,21 @@ body.home #main {
         flex-direction: column;
         justify-content: center;
 
-        h1, h6 {
-            color: white;
+        .content-wrapper {
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+            h1, h3, h6, p {
+                color: white;
+            }
         }
     }
+}
+
+#about-section{
+    position: relative;
+    z-index: 1;
+    min-height: 50vh;
 }
 
 #bgVideo {
@@ -131,4 +144,14 @@ body.home #main {
     inset: 0;
     background: rgba(0, 0, 0, 0.5);
     z-index: 1;
+}
+
+@media (max-width: 767px) {
+
+    #introLogo {
+        img {
+            width: 70vw;
+        }
+    }
+
 }

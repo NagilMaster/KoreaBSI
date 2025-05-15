@@ -7,7 +7,6 @@ window.addEventListener("DOMContentLoaded", () => {
             trigger: "#introSection",
             start: "top top",
             end: '+=200',
-            markers: true
         },
     }).to(".video-wrapper",
         {
