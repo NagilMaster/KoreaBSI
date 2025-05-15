@@ -93,9 +93,9 @@ if ($page_structure === 'none' || blocksy_post_uses_vc()) {
             </div>
         </div>
     </section>
-    <section id="about-section">
-        ㅁㄴㅇㄹ
-    </section>
+    <article id="about-section" class="page type-page status-publish hentry">
+        asdf
+    </article>
     <?php
     /**
      * Note to code reviewers: This line doesn't need to be escaped.
