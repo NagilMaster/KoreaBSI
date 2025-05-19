@@ -104,20 +104,35 @@ if ($page_structure === 'none' || blocksy_post_uses_vc()) {
             </div>
         </section>
 
-        <section id="serviceSection">
-            <img loading="lazy" decoding="async" width="105" height="221"
-                 src="/wp-content/uploads/2025/03/decoration-1.svg" class="attachment-full size-full wp-image-671"
-                 alt="">
+
+        <section id="subServiceSection">
             <div class="ct-container">
                 <div class="service-title-wrapper">
                     <h1>우리가 연구하는 것은 곧, 당신의 내일입니다</h1>
                 </div>
             </div>
-            <div style="text-align: right;">
+        </section>
+        <section id="serviceSection">
+            <div class="bg-wrapper">
+                <img src="/wp-content/themes/blocksy-child/assets/images/front-page/main-section-bg-web.jpg"
+                     alt="service bg image">
+            </div>
+            <div class="content-wrapper">
+                <div class="ct-container">
+                    <div class="service-box box-1">뇌파 훈련</div>
+                    <div class="service-box box-2">뇌파 검사</div>
+                    <div class="service-box box-3">브레인융합센터</div>
+                    <div class="service-box box-4">뇌교육사 자격 교육</div>
+                </div>
+            </div>
+            <!--<img loading="lazy" decoding="async" width="105" height="221"
+                 src="/wp-content/uploads/2025/03/decoration-1.svg" class="attachment-full size-full wp-image-671"
+                 alt="">-->
+            <!--<div style="text-align: right;">
                 <img loading="lazy" decoding="async" width="105" height="221"
                      src="/wp-content/uploads/2025/03/decoration-2.svg" class="attachment-full size-full wp-image-671"
                      alt="">
-            </div>
+            </div>-->
         </section>
     </div>
     <?php

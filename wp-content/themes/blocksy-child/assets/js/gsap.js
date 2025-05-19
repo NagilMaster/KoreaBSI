@@ -42,3 +42,45 @@ window.addEventListener('DOMContentLoaded', () => {
   //   elementorFrontend.init();
   // }
 });
+
+// Default Effect
+
+// 플러그인 등록
+gsap.registerPlugin(ScrambleTextPlugin);
+
+// 사용할 글자 목록
+const defaultChars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+
+// 대상 요소 전부 선택
+const chgWords = document.querySelectorAll('.chg-word');
+
+// 이벤트 등록
+chgWords.forEach(el => {
+  el.addEventListener('mouseenter', () => {
+    if (!gsap.isTweening(el)) {
+      gsap.to(el, {
+        duration: 0.8,
+        ease: 'sine.in',
+        scrambleText: {
+          text: el.innerText,
+          speed: 2,
+          chars: defaultChars
+        }
+      });
+    }
+  });
+
+  el.addEventListener('focus', () => {
+    if (!gsap.isTweening(el)) {
+      gsap.to(el, {
+        duration: 0.8,
+        ease: 'sine.in',
+        scrambleText: {
+          text: el.innerText,
+          speed: 2,
+          chars: defaultChars
+        }
+      });
+    }
+  });
+});

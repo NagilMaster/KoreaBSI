@@ -34,7 +34,7 @@ window.addEventListener("DOMContentLoaded", () => {
 
     gsap.from(".service-title-wrapper", {
         scrollTrigger: {
-            trigger: "#serviceSection",
+            trigger: "#subServiceSection",
             start: 'top 80%', // 뷰포트 아래쪽에서 시작
             toggleActions: 'play none none none',
             scrub: 1,
