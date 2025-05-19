@@ -20,16 +20,29 @@ window.addEventListener("DOMContentLoaded", () => {
 
     gsap.timeline({
         scrollTrigger: {
-            scrub: 1,
             trigger: ".pin-gallery",
             start: "top top",
-            end: '+=600',
+            end: () => innerHeight * 4,
             pin: '.pin-gallery',
-            marker: true,
+            scrub: 1,
+            anticipatePin: 1,
         },
-    }).from("img.lab-img", {
-        scale: 1.5,
-        opacity: 0.3,
-        ease: "power2.out"
+    }).from(".lab-img", {
+        scale: 5,
+        ease: "none"
+    });
+
+    gsap.from(".service-title-wrapper", {
+        scrollTrigger: {
+            trigger: "#serviceSection",
+            start: 'top 80%', // 뷰포트 아래쪽에서 시작
+            toggleActions: 'play none none none',
+            scrub: 1,
+        },
+        opacity: 0,
+        y: 40,
+        duration: 1,
+        ease: 'power3.out',
+        delay: 0.3 // 순차적으로 보이도록 약간의 딜레이
     });
 });

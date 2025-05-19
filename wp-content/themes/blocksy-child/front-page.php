@@ -100,7 +100,23 @@ if ($page_structure === 'none' || blocksy_post_uses_vc()) {
                 <h4>한국뇌과학연구소는 뇌의 가능성을 과학으로 증명하고, 당신의 삶 속 실질적인 변화로 연결합니다</h4>
             </div>
             <div class="pin-gallery">
-                <img src="/wp-content/themes/blocksy-child/assets/images/logo/korea-bsi-logo-white.png" alt="Lab images" class="lab-img">
+                <div class="lab-img"></div>
+            </div>
+        </section>
+
+        <section id="serviceSection">
+            <img loading="lazy" decoding="async" width="105" height="221"
+                 src="/wp-content/uploads/2025/03/decoration-1.svg" class="attachment-full size-full wp-image-671"
+                 alt="">
+            <div class="ct-container">
+                <div class="service-title-wrapper">
+                    <h1>우리가 연구하는 것은 곧, 당신의 내일입니다</h1>
+                </div>
+            </div>
+            <div style="text-align: right;">
+                <img loading="lazy" decoding="async" width="105" height="221"
+                     src="/wp-content/uploads/2025/03/decoration-2.svg" class="attachment-full size-full wp-image-671"
+                     alt="">
             </div>
         </section>
     </div>
