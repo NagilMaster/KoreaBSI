@@ -137,14 +137,74 @@ if ($page_structure === 'none' || blocksy_post_uses_vc()) {
                     </div>
                 </div>
             </div>
-            <!--<img loading="lazy" decoding="async" width="105" height="221"
+        </section>
+        <section id="neurofeedbackSection">
+            <div class="bg-filter"></div>
+            <div class="title-wrapper">
+                <h1 class="big-title">Neurofeedback</h1>
+                <h1 class="normal-title">뉴로피드백</h1>
+            </div>
+            <div class="info-wrapper">
+                <p>
+                    뉴로피드백은 뇌파를 실시간으로 측정하고 피드백을 제공하여 뇌 활동을 조절하고 개선하는 훈련 기법입니다.
+                    뇌파(EEG)를 감지하여 시각적, 청각적 신호로 사용자에게 제공함으로써 스스로 뇌의 특정 패턴을 조절하도록 유도하는 방식입니다.
+                </p>
+            </div>
+            <div class="products-wrapper">
+                <div class="img-wrapper prod1"><img
+                            src="/wp-content/themes/blocksy-child/assets/images/front-page/product-1.jpeg" alt="prod1">
+                </div>
+                <div class="img-wrapper prod2"><img
+                            src="/wp-content/themes/blocksy-child/assets/images/front-page/product-2.jpeg" alt="prod2">
+                </div>
+                <div class="img-wrapper prod3"><img
+                            src="/wp-content/themes/blocksy-child/assets/images/front-page/product-3.jpeg" alt="prod3">
+                </div>
+                <div class="img-wrapper prod4"><img
+                            src="/wp-content/themes/blocksy-child/assets/images/front-page/product-5.jpeg" alt="prod4">
+                </div>
+                <div class="img-wrapper prod5"><img
+                            src="/wp-content/themes/blocksy-child/assets/images/front-page/product-6.jpeg" alt="prod5">
+                </div>
+                <div class="img-wrapper prod6"><img
+                            src="/wp-content/themes/blocksy-child/assets/images/front-page/product-7.jpeg" alt="prod6">
+                </div>
+            </div>
+        </section>
+        <section id="dataProveSection">
+            <img loading="lazy" decoding="async" width="105" height="221"
                  src="/wp-content/uploads/2025/03/decoration-1.svg" class="attachment-full size-full wp-image-671"
-                 alt="">-->
-            <!--<div style="text-align: right;">
+                 alt="">
+            <div class="ct-container">
+                <h1>데이터로 입증되는 뇌의 변화</h1>
+                <div class="diffrence-pin">
+                    <div class="data-img-wrapper">
+                        <img
+                                src="/wp-content/themes/blocksy-child/assets/images/front-page/main-about-a2.png"
+                                alt="전교 1등 뇌파">
+                        <div class="caption">전교 1등 뇌파</div>
+                    </div>
+                    <div class="data-img-wrapper">
+                        <img
+                                src="/wp-content/themes/blocksy-child/assets/images/front-page/main-about-a1.png"
+                                alt="전교 꼴등 뇌파">
+                        <div class="caption">전교 꼴등 뇌파</div>
+                    </div>
+                </div>
+            </div>
+            <div style="text-align: right;">
                 <img loading="lazy" decoding="async" width="105" height="221"
                      src="/wp-content/uploads/2025/03/decoration-2.svg" class="attachment-full size-full wp-image-671"
                      alt="">
-            </div>-->
+            </div>
+        </section>
+        <section id="lastSection">
+            <div class="ct-container">
+                <div class="action-wrapper elementor-widget">
+                    <h1>지금, 당신의 뇌와 대화해보세요</h1>
+                    <a href="#" class="button">뇌파검사 자세히보기</a>
+                </div>
+            </div>
         </section>
     </div>
 
