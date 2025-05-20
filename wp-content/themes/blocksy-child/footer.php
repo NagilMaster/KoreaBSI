@@ -16,13 +16,16 @@ do_action('blocksy:content:bottom');
 </main>
 
 
+<!--
 <section class="footer-section">
     <video id="introVideo" autoplay muted loop playsinline>
         <source src="https://videos.pexels.com/video-files/3129671/3129671-uhd_2560_1440_30fps.mp4" type="video/mp4">
     </video>
+    -->
 
     <!-- 🔲 반투명 오버레이 -->
-    <div class="videoOverlay"></div>
+<!--
+<div class="videoOverlay"></div>
 
     <div class="text-block">
         <p>
@@ -32,7 +35,7 @@ do_action('blocksy:content:bottom');
         </p>
     </div>
 </section>
-
+-->
 <?php
 do_action('blocksy:content:after');
 do_action('blocksy:footer:before');
@@ -45,7 +48,7 @@ do_action('blocksy:footer:after');
 
 <?php wp_footer(); ?>
 
-<script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/SplitText.min.js"></script>
+<!--<script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/SplitText.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrambleTextPlugin.min.js"></script>
 
 <script>
@@ -80,7 +83,7 @@ do_action('blocksy:footer:after');
                 });
         });
     };
-</script>
+</script>-->
 
 </body>
 </html>
