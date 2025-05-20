@@ -368,7 +368,7 @@ body.home #main {
 #lastSection {
     min-height: 50vh;
     padding-top: 10vh;
-    padding-bottom: 30vh;
+    padding-bottom: 10vh;
     .action-wrapper {
         background: linear-gradient(270deg, #00667Caa 20%, #041B2D 60%);
         padding: 15vh 5vw;
