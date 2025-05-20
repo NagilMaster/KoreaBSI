@@ -113,6 +113,7 @@ body.home #main {
             max-width: 600px;
             margin-left: auto;
             margin-right: auto;
+
             h1, h3, h6, p {
                 color: white;
             }
@@ -120,15 +121,16 @@ body.home #main {
     }
 }
 
-.intro-page{
+.intro-page {
     width: 100%;
     position: relative;
 }
 
-#aboutSection{
+#aboutSection {
     position: relative;
     z-index: 1;
     min-height: 50vh;
+
     .content-wrapper {
         max-width: 800px;
         padding: 30px;
@@ -145,6 +147,7 @@ body.home #main {
         overflow: hidden;
         background: black;
         padding-bottom: 90px;
+
         .lab-img {
             top: 0;
             left: 0;
@@ -169,8 +172,9 @@ body.home #main {
     padding-bottom: 90px;
     text-align: center;
 
-    .service-title-wrapper{
+    .service-title-wrapper {
         opacity: 1;
+
         h1 {
             color: white;
         }
@@ -193,12 +197,13 @@ body.home #main {
         width: 100%;
         height: 100%;
 
-        .ct-container{
+        .ct-container {
             height: 100%;
             position: relative;
             display: flex;
             flex-wrap: wrap;
             justify-content: space-between;
+            gap: 15px;
 
             .service-box {
                 width: 30vw;
@@ -207,6 +212,19 @@ body.home #main {
                 clip-path: circle();
                 text-align: center;
                 position: relative;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                color: white;
+                padding: 15px;
+
+                h3, p {
+                    color: white;
+                    word-break: keep-all;
+                }
+                p {
+                    margin-bottom: 0;
+                }
             }
         }
     }
@@ -219,6 +237,7 @@ body.home #main {
         opacity: 0.4;
         width: 100%;
         text-align: center;
+
         img {
             display: block;
             margin: auto;
@@ -249,17 +268,28 @@ body.home #main {
             width: 70vw;
         }
     }
+    #introSection {
+        .intro-content {
+            .content-wrapper {
+                h1 {
+                    font-size: 30px;
+                }
+            }
+        }
+    }
 
-    #aboutSection{
+    #aboutSection {
         .content-wrapper {
             h1 {
                 font-size: 30px;
             }
+
             h4 {
                 font-size: 16px;
                 font-weight: 500;
             }
         }
+
         .pin-gallery {
             .lab-img {
                 background-image: url(/wp-content/themes/blocksy-child/assets/images/front-page/nueron-images-m-original.png);
@@ -267,14 +297,22 @@ body.home #main {
         }
     }
 
-    #serviceSection{
+    #serviceSection {
         .content-wrapper {
 
-            .ct-container{
+            .ct-container {
 
                 .service-box {
                     width: 40vw;
                     height: 40vw;
+
+                    h3 {
+                        font-size: 18px;
+                        margin-bottom: 5px;
+                    }
+                    p {
+                        font-size: 12px;
+                    }
                 }
             }
         }

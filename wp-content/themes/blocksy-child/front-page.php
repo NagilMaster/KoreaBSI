@@ -119,10 +119,22 @@ if ($page_structure === 'none' || blocksy_post_uses_vc()) {
             </div>
             <div class="content-wrapper">
                 <div class="ct-container">
-                    <div class="service-box box-1">뇌파 훈련</div>
-                    <div class="service-box box-2">뇌파 검사</div>
-                    <div class="service-box box-3">브레인융합센터</div>
-                    <div class="service-box box-4">뇌교육사 자격 교육</div>
+                    <div class="service-box box-1">
+                        <h3>뇌파 훈련</h3>
+                        <p>현재 뇌파 데이터를 기반으로 한 맞춤형 훈련</p>
+                    </div>
+                    <div class="service-box box-2">
+                        <h3>뇌파 검사</h3>
+                        <p>2분 진단으로 적성, 스트레스, 각성도 분석</p>
+                    </div>
+                    <div class="service-box box-3">
+                        <h3>브레인융합센터</h3>
+                        <p>집중력, 힐링, 정서 조절을 위한 통합 솔루션</p>
+                    </div>
+                    <div class="service-box box-4">
+                        <h3>뇌교육사 자격 교육</h3>
+                        <p>전문가 양성을 위한 공식 교육 프로그램</p>
+                    </div>
                 </div>
             </div>
             <!--<img loading="lazy" decoding="async" width="105" height="221"
