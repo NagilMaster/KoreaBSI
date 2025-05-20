@@ -51,6 +51,9 @@ gsap.registerPlugin(ScrambleTextPlugin);
 // 사용할 글자 목록
 const defaultChars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
 
+
+
+/*
 // 대상 요소 전부 선택
 const chgWords = document.querySelectorAll('.chg-word');
 
@@ -84,3 +87,4 @@ chgWords.forEach(el => {
     }
   });
 });
+*/
