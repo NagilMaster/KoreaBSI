@@ -472,4 +472,15 @@ body.home #main {
             }
         }
     }
+
+
+    #lastSection {
+        .action-wrapper {
+            flex-direction: column;
+            justify-content: space-between;
+            h1 {
+                text-align: center;
+            }
+        }
+    }
 }

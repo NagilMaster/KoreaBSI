@@ -125,7 +125,7 @@ if ($page_structure === 'none' || blocksy_post_uses_vc()) {
                     </div>
                     <div class="service-box box-2">
                         <h3>뇌파 검사</h3>
-                        <p>2분 진단으로 적성, 스트레스, 각성도 분석</p>
+                        <p>단 2분의 뇌파 측정으로 뇌기능, 스트레스 강도, 적성, 성향 분석</p>
                     </div>
                     <div class="service-box box-3">
                         <h3>브레인융합센터</h3>

@@ -9,7 +9,7 @@ window.addEventListener('DOMContentLoaded', () => {
 //   if (body.classList.contains('home') || body.classList.contains('front-page')) {}
 
 
-  const widgets = document.querySelectorAll('.elementor-widget');
+  const widgets = document.querySelectorAll('#main-container .elementor-widget');
 
   widgets.forEach((el, i) => {
     gsap.from(el, {
