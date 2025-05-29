@@ -86,4 +86,19 @@ do_action('blocksy:footer:after');
 </script>-->
 
 </body>
+
+<script>
+    jQuery('.toggle-btn').click(function(){
+        const status = jQuery(this).data('toggle');
+        if (status === 'close') {
+            jQuery(this).prev().addClass('open');
+            jQuery(this).data('toggle', 'open');
+            jQuery(this).html('접기');
+        } else {
+            jQuery(this).prev().removeClass('open');
+            jQuery(this).data('toggle', 'close');
+            jQuery(this).html('더보기');
+        }
+    });
+</script>
 </html>

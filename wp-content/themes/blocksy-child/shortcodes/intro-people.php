@@ -1,5 +1,7 @@
 <?php
 add_shortcode('intro_people', function () {
+
+
     ?>
 
     <style>
@@ -11,6 +13,7 @@ add_shortcode('intro_people', function () {
 
             .thumbnail-wrapper {
                 width: 35%;
+
                 img {
                     border-radius: 30px;
                 }
@@ -26,6 +29,7 @@ add_shortcode('intro_people', function () {
                     gap: 15px;
                     align-items: baseline;
                     margin-bottom: 60px;
+
                     h5 {
                         color: #00B2DB;
                     }
@@ -40,6 +44,7 @@ add_shortcode('intro_people', function () {
                         width: 100%; /* 중요: column 레이아웃에선 inline-block + width 100% */
                         box-sizing: border-box;
                         margin-bottom: 45px;
+
                         h6 {
                             color: #00B2DB;
                         }
@@ -47,9 +52,116 @@ add_shortcode('intro_people', function () {
                 }
             }
         }
-        @media (max-width: 767px){
+
+        .people-list {
+            margin-top: 90px;
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            justify-content: flex-start;
+
+            .person-wrapper {
+                width: calc(20% - 15px);
+                margin-right: 15px;
+                margin-bottom: 60px;
+
+                .thumbnail-wrapper {
+                    position: relative;
+
+                    img {
+                        /*background: linear-gradient(0, #ffffff 0%, #eaeaea 100%);*/
+                        background: white;
+                        border-radius: 15px;
+                    }
+
+                    .position {
+                        border-radius: 5px;
+                        background: #041823aa;
+                        padding: 5px 20px;
+                        text-align: center;
+                        font-weight: 600;
+                        font-size: 16px;
+                        position: absolute;
+                        bottom: 10px;
+                        right: 10px;
+                    }
+                }
+
+                .name {
+                    margin-top: 15px;
+                }
+
+                .info-wrapper {
+                    height: 200px;
+                    margin-bottom: 15px;
+                    position: relative;
+                    overflow: hidden;
+
+                    .career, .lecture, .thesis, .books, .history {
+                        margin-bottom: 30px;
+
+                        h6 {
+                            color: #00B2DB;
+                        }
+
+                        div {
+                            font-size: 90%;
+                        }
+                    }
+                }
+
+                .info-wrapper:after {
+                    content: '';
+                    height: 50px;
+                    width: 100%;
+                    position: absolute;
+                    left: 0;
+                    bottom: 0;
+                    background: linear-gradient(0deg, #041823 0%, #04182300 100%);
+                }
+
+                .info-wrapper.open {
+                    height: auto;
+                }
+                .info-wrapper.open:after {
+                    opacity: 0;
+                }
+
+                .btn {
+                    padding: 5px 30px;
+                    border-radius: 5px;
+                    width: 100%;
+                }
+            }
+
+            .person-wrapper:nth-child(5) {
+                margin-right: 0;
+            }
+        }
+
+        @media (min-width: 768px) and (max-width: 1290px) {
+            .people-list {
+                .person-wrapper {
+                    width: calc(100% / 3 - 15px);
+
+                    .thumbnail-wrapper {
+                        .position {
+                            border-radius: 3px;
+                            font-size: 13px;
+                        }
+                    }
+                }
+            }
+
+            .person-wrapper:nth-child(3) {
+                margin-right: 0;
+            }
+        }
+
+        @media (max-width: 767px) {
             .leader-section {
                 flex-direction: column;
+
                 .info-wrapper {
                     padding: 0;
 
@@ -57,6 +169,7 @@ add_shortcode('intro_people', function () {
                         margin-top: 15px;
                         margin-bottom: 15px;
                     }
+
                     .info-group {
                         div {
                             font-size: 13px;
@@ -64,11 +177,67 @@ add_shortcode('intro_people', function () {
                         }
                     }
                 }
+
                 .thumbnail-wrapper, .info-wrapper {
-                    width :100%;
+                    width: 100%;
+
                     img {
                         border-radius: 15px;
                     }
+                }
+            }
+
+            .people-list {
+                .person-wrapper {
+                    width: calc(50% - 15px);
+
+                    .thumbnail-wrapper {
+                        .position {
+                            border-radius: 3px;
+                            font-size: 13px;
+                        }
+                    }
+                }
+
+                .person-wrapper:nth-child(2) {
+                    margin-right: 0;
+                }
+            }
+        }
+
+        @media (max-width: 500px) {
+            .leader-section {
+                flex-direction: column;
+
+                .info-wrapper {
+                    padding: 0;
+
+                    .name-title {
+                        margin-top: 15px;
+                        margin-bottom: 15px;
+                    }
+
+                    .info-group {
+                        div {
+                            font-size: 13px;
+                            margin-bottom: 30px;
+                        }
+                    }
+                }
+
+                .thumbnail-wrapper, .info-wrapper {
+                    width: 100%;
+
+                    img {
+                        border-radius: 15px;
+                    }
+                }
+            }
+
+            .people-list {
+                .person-wrapper {
+                    width: 100%;
+                    margin-right: 0;
                 }
             }
         }
@@ -119,7 +288,69 @@ add_shortcode('intro_people', function () {
             </div>
         </div>
     </div>
-    Hello~!
+
+    <?php if (have_rows('people')): ?>
+
+        <div class="people-list">
+        <?php
+        while (have_rows('people')) : the_row();
+
+            $thumbnail = get_sub_field('thumbnail');
+            $name = get_sub_field('name');
+            $position = get_sub_field('position');
+            $career = get_sub_field('career');
+            $lecture = get_sub_field('lecture');
+            $thesis = get_sub_field('thesis');
+            $books = get_sub_field('books');
+            $history = get_sub_field('history');
+            ?>
+
+            <div class="person-wrapper">
+                <div class="thumbnail-wrapper">
+                    <img src="<?php echo($thumbnail); ?>" alt="연구원 사진">
+                    <div class="position"><?php echo($position); ?></div>
+                </div>
+                <h5 class="name"><?php echo($name); ?></h5>
+                <div class="info-wrapper">
+                    <?php if ($career): ?>
+                        <div class="career">
+                            <h6>학력 및 경력</h6>
+                            <div><?php echo($career); ?></div>
+                        </div>
+                    <?php endif; ?>
+
+                    <?php if ($lecture): ?>
+                        <div class="lecture">
+                            <h6>강의분야</h6>
+                            <div><?php echo($lecture); ?></div>
+                        </div>
+                    <?php endif; ?>
+                    <?php if ($thesis): ?>
+                        <div class="thesis">
+                            <h6>논문</h6>
+                            <div><?php echo($thesis); ?></div>
+                        </div>
+                    <?php endif; ?>
+                    <?php if ($books): ?>
+                        <div class="books">
+                            <h6>저서</h6>
+                            <div><?php echo($books); ?></div>
+                        </div>
+                    <?php endif; ?>
+                    <?php if ($history): ?>
+                        <div class="history">
+                            <h6>자격 및 주요 강의 경력</h6>
+                            <div><?php echo($history); ?></div>
+                        </div>
+                    <?php endif; ?>
+                </div>
+                <button class="button btn toggle-btn" data-toggle="close">더보기</button>
+            </div>
+
+        <?php endwhile; ?>
+
+    <?php endif; ?>
+    </div>
 
     <?php
 });
