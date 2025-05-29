@@ -133,12 +133,13 @@ add_shortcode('intro_people', function () {
                     width: 100%;
                 }
             }
+        }
 
-            .person-wrapper:nth-child(5) {
+        @media (min-width: 1291px) {
+            .people-list .person-wrapper .person-wrapper:nth-child(5) {
                 margin-right: 0;
             }
         }
-
         @media (min-width: 768px) and (max-width: 1290px) {
             .people-list {
                 .person-wrapper {
