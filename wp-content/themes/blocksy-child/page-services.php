@@ -148,8 +148,6 @@ if ($page_structure === 'none' || blocksy_post_uses_vc()) {
             <div class="swiper-button-next"></div>
             <div class="swiper-pagination"></div>
         </div>
-
-
     </div>
 
     <?php
