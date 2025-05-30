@@ -72,7 +72,7 @@ add_shortcode('intro_people', function () {
                     img {
                         /*background: linear-gradient(0, #ffffff 0%, #eaeaea 100%);*/
                         background: white;
-                        border-radius: 300px;
+                        border-radius: 15px 15px 40% 15px;
                         width: 70%;
                     }
 
