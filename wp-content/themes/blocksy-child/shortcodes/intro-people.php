@@ -22,6 +22,7 @@ add_shortcode('intro_people', function () {
             .info-wrapper {
                 width: 65%;
                 padding: 30px;
+                padding-top: 0;
 
                 .name-title {
                     display: flex;
