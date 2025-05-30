@@ -308,13 +308,13 @@ add_shortcode('intro_people', function () {
             $history = get_sub_field('history');
             ?>
 
-            <div class="person-wrapper elementor-widget">
-                <div class="thumbnail-wrapper">
+            <div class="person-wrapper">
+                <div class="thumbnail-wrapper elementor-widget">
                     <img src="<?php echo($thumbnail); ?>" alt="연구원 사진">
                     <div class="position"><?php echo($position); ?></div>
                 </div>
                 <h5 class="name"><?php echo($name); ?></h5>
-                <div class="info-wrapper">
+                <div class="info-wrapper elementor-widget">
                     <?php if ($career): ?>
                         <div class="career">
                             <h6>학력 및 경력</h6>
