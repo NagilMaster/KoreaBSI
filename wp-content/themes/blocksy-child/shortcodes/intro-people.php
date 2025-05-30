@@ -249,7 +249,7 @@ add_shortcode('intro_people', function () {
             class="leader-section"
     >
         <div class="thumbnail-wrapper">
-            <img src="/wp-content/themes/blocksy-child/assets/images/front-page/person-back.jpeg" alt="백기자 연구소장">
+            <img src="/wp-content/themes/blocksy-child/assets/images/front-page/person-back-2.jpeg" alt="백기자 연구소장">
         </div>
         <div class="info-wrapper">
             <div class="name-title">
