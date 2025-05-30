@@ -71,19 +71,20 @@ add_shortcode('intro_people', function () {
                     img {
                         /*background: linear-gradient(0, #ffffff 0%, #eaeaea 100%);*/
                         background: white;
-                        border-radius: 15px;
+                        border-radius: 300px;
+                        width: 70%;
                     }
 
                     .position {
                         border-radius: 5px;
-                        background: #041823aa;
+                        background: #034a71aa;
                         padding: 5px 20px;
                         text-align: center;
                         font-weight: 600;
                         font-size: 16px;
                         position: absolute;
-                        bottom: 10px;
-                        right: 10px;
+                        bottom: 0;
+                        right: 0;
                     }
                 }
 
