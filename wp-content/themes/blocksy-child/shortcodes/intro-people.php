@@ -313,7 +313,7 @@ add_shortcode('intro_people', function () {
                     <img src="<?php echo($thumbnail); ?>" alt="연구원 사진">
                     <div class="position"><?php echo($position); ?></div>
                 </div>
-                <h5 class="name"><?php echo($name); ?></h5>
+                <h5 class="name elementor-widget"><?php echo($name); ?></h5>
                 <div class="info-wrapper elementor-widget">
                     <?php if ($career): ?>
                         <div class="career">
@@ -347,7 +347,7 @@ add_shortcode('intro_people', function () {
                         </div>
                     <?php endif; ?>
                 </div>
-                <button class="button btn toggle-btn" data-toggle="close">더보기</button>
+                <button class="button btn toggle-btn elementor-widget" data-toggle="close">더보기</button>
             </div>
 
         <?php endwhile; ?>
