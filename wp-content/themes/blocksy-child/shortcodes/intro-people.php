@@ -249,15 +249,15 @@ add_shortcode('intro_people', function () {
     <div
             class="leader-section"
     >
-        <div class="thumbnail-wrapper">
+        <div class="thumbnail-wrapper elementor-widget">
             <img src="/wp-content/themes/blocksy-child/assets/images/front-page/person-back-2.jpeg" alt="백기자 연구소장">
         </div>
         <div class="info-wrapper">
-            <div class="name-title">
+            <div class="name-title elementor-widget">
                 <h3>백기자 박사</h3>
                 <h5>연구소장</h5>
             </div>
-            <div class="info-group">
+            <div class="info-group elementor-widget">
                 <div class="career">
                     <h6>학력 및 경력</h6>
                     뇌과학 박사(뉴로피드백)<br/>
@@ -308,7 +308,7 @@ add_shortcode('intro_people', function () {
             $history = get_sub_field('history');
             ?>
 
-            <div class="person-wrapper">
+            <div class="person-wrapper elementor-widget">
                 <div class="thumbnail-wrapper">
                     <img src="<?php echo($thumbnail); ?>" alt="연구원 사진">
                     <div class="position"><?php echo($position); ?></div>
