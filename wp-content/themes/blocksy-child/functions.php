@@ -23,3 +23,4 @@ require_once $_SERVER['DOCUMENT_ROOT'].'/wp-content/themes/blocksy-child/init/gs
 /* Shortcodes */
 require_once $_SERVER['DOCUMENT_ROOT'].'/wp-content/themes/blocksy-child/shortcodes/main-slogan.php';
 require_once $_SERVER['DOCUMENT_ROOT'].'/wp-content/themes/blocksy-child/shortcodes/intro-people.php';
+require_once $_SERVER['DOCUMENT_ROOT'].'/wp-content/themes/blocksy-child/shortcodes/thesis-list.php';

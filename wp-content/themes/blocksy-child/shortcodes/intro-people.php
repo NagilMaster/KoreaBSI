@@ -1,7 +1,5 @@
 <?php
 add_shortcode('intro_people', function () {
-
-
     ?>
 
     <style>
