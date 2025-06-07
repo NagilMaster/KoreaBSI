@@ -21,10 +21,13 @@ body {
 .process-container .elementor-widget-container{
     flex: 1;
     aspect-ratio: 1 / 1;
-    display: flex
-;
+    display: flex;
     flex-direction: column;
     justify-content: center;
+    h4 {
+        font-size: 45px;
+        font-weight: 900;
+    }
 }
 
 /*Footer*/
