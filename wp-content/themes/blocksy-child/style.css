@@ -14,6 +14,19 @@ body {
     }
 }
 
+/* Academi */
+.license-container > div {
+    align-self: flex-start;
+}
+.process-container .elementor-widget-container{
+    flex: 1;
+    aspect-ratio: 1 / 1;
+    display: flex
+;
+    flex-direction: column;
+    justify-content: center;
+}
+
 /*Footer*/
 .footer-section{
     position: relative;
