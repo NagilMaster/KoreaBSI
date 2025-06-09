@@ -30,6 +30,22 @@ body {
         margin-bottom: 10px;
     }
 }
+#gallery .elementor-widget-container .elementor-image-carousel-wrapper .elementor-image-carousel{
+    figure {
+        height: 300px;          /* 고정 높이 */
+        overflow: hidden;       /* 넘어가면 자르기 */
+        position: relative;
+        img {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            min-width: 100%;
+            min-height: 100%;
+            object-fit: cover; /* 핵심: background-size: cover처럼 동작 */
+        }
+    }
+}
 
 /*Footer*/
 .footer-section{
