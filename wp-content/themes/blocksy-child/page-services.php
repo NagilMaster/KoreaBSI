@@ -82,8 +82,8 @@ if ($page_structure === 'none' || blocksy_post_uses_vc()) {
                     <div class="swiper-carousel-animate-opacity">
                         <img src="/wp-content/themes/blocksy-child/assets/images/front-page/product-1.jpeg" alt="">
                         <div class="slide-content">
-                            <h3>NeuroBrain</h3>
-                            <p>뉴로피드백 기반을 통한 무선 뇌파측정 및 분석에 따른 훈련 프로그램 내장</p>
+                            <h3>BrainSC</h3>
+                            <p>2 channel system의 비침습형 헤드밴드, 친화적인 휴대용 시스템, 양측 귓불 사용, 뇌파 측정과 분석 훈련 가능</p>
                         </div>
                     </div>
                 </div>
@@ -91,8 +91,8 @@ if ($page_structure === 'none' || blocksy_post_uses_vc()) {
                     <div class="swiper-carousel-animate-opacity">
                         <img src="/wp-content/themes/blocksy-child/assets/images/front-page/product-2.jpeg" alt="">
                         <div class="slide-content">
-                            <h3>NST (Neuro Sound Technology)</h3>
-                            <p>특정 주파수를 이용하여 뇌파를 동기화하고, 뇌기능의 균형과 통합, 전 대역 뇌파 훈련을 유도하는 도구.</p>
+                            <h3>NST(Neuro Sound Technology) 1</h3>
+                            <p>자연의 소리, 배경음악, 바이너럴비트(Binaural beat), 모노럴비트(Monaural beat), 아이소크로닉(Isochronic) 등으로 구성된 소리와 특정 주파수를 이용하여 뇌파를 동기화하고, 뇌기능의 균형과 통합, 전 대역 뇌파 훈련을 유도하는 도구.</p>
                         </div>
                     </div>
                 </div>
@@ -100,8 +100,8 @@ if ($page_structure === 'none' || blocksy_post_uses_vc()) {
                     <div class="swiper-carousel-animate-opacity">
                         <img src="/wp-content/themes/blocksy-child/assets/images/front-page/product-3.jpeg" alt="">
                         <div class="slide-content">
-                            <h3>PowerNap</h3>
-                            <p>자동 뇌파측정과 분석 후 훈련자에 맞는 주파수와 사운드 설정 30분 세팅으로 휴대성과 간편사용이 장점 43가지 훈련 프로그램 장착</p>
+                            <h3>PowerNap 1</h3>
+                            <p>훈련자의 뇌파를 자동으로 측정, 분석하여 뇌파의 상태에 따라 피드백을 제공하고 뇌의 항상성과 특히 수면 유도 기능을 향상시키는 훈련기</p>
                         </div>
                     </div>
                 </div>
@@ -109,8 +109,8 @@ if ($page_structure === 'none' || blocksy_post_uses_vc()) {
                     <div class="swiper-carousel-animate-opacity">
                         <img src="/wp-content/themes/blocksy-child/assets/images/front-page/product-5.jpeg" alt="">
                         <div class="slide-content">
-                            <h3>NeuroBrain</h3>
-                            <p>뉴로피드백 기반을 통한 무선 뇌파측정 및 분석에 따른 훈련 프로그램 내장</p>
+                            <h3>Neuro Brain</h3>
+                            <p>뉴로피드백기반을 통한 뇌파측정 및 분석, 훈련이 가능한 휴대용 시스템 원신호대비 평균 .942(p<0.001)를 나타내어 주파수별 신호 측정에 대한 신뢰성이 입증</p>
                         </div>
                     </div>
                 </div>
@@ -118,8 +118,8 @@ if ($page_structure === 'none' || blocksy_post_uses_vc()) {
                     <div class="swiper-carousel-animate-opacity">
                         <img src="/wp-content/themes/blocksy-child/assets/images/front-page/product-6.jpeg" alt="">
                         <div class="slide-content">
-                            <h3>NeuroWave</h3>
-                            <p>NeuroWave는 최첨단 생체 반응 시스템으로 두뇌개발 및 학습능력 향상, 주의력, 집중력 향상을 위한 제품입니다.</p>
+                            <h3>NST(Neuro Sound Technology) 2</h3>
+                            <p>인지기능향상, 힐링기능등 다양한 증상의 개선과 사용자의 목적에 따라 훈련이 가능하며, 휴대성과 편리함이 장점</p>
                         </div>
                     </div>
                 </div>
@@ -127,8 +127,8 @@ if ($page_structure === 'none' || blocksy_post_uses_vc()) {
                     <div class="swiper-carousel-animate-opacity">
                         <img src="/wp-content/themes/blocksy-child/assets/images/front-page/product-4.jpeg" alt="">
                         <div class="slide-content">
-                            <h3>NeuroBrain</h3>
-                            <p>뉴로피드백 기반을 통한 무선 뇌파측정 및 분석에 따른 훈련 프로그램 내장</p>
+                            <h3>Neuro Brain</h3>
+                            <p>뉴로피드백기반을 통한 뇌파측정 및 분석, 훈련이 가능한 휴대용 시스템 원신호대비 평균 .942(p<0.001)를 나타내어 주파수별 신호 측정에 대한 신뢰성이 입증</p>
                         </div>
                     </div>
                 </div>
@@ -136,8 +136,9 @@ if ($page_structure === 'none' || blocksy_post_uses_vc()) {
                     <div class="swiper-carousel-animate-opacity">
                         <img src="/wp-content/themes/blocksy-child/assets/images/front-page/product-7.jpeg" alt="">
                         <div class="slide-content">
-                            <h3>PowerNap</h3>
-                            <p>자동 뇌파측정과 분석 후 훈련자에 맞는 주파수와 사운드 설정 30분 세팅으로 휴대성과 간편사용이 장점 43가지 훈련 프로그램 장착</p>
+                            <h3>PowerNap2</h3>
+<!--                            <p>자동 뇌파측정과 분석 후 훈련자에 맞는 주파수와 사운드 설정 30분 세팅으로 휴대성과 간편사용이 장점 43가지 훈련 프로그램 장착</p>-->
+                            <p>간편하게 휴대용으로 사용할 수 있으며, 트라우마, 리셋 기능, 훈련 시간은 30분, 43가지 훈련 프로그램 장착</p>
                         </div>
                     </div>
                 </div>

@@ -252,39 +252,39 @@ add_shortcode('intro_people', function () {
         </div>
         <div class="info-wrapper">
             <div class="name-title elementor-widget">
-                <h3>백기자 박사</h3>
-                <h5>연구소장</h5>
+                <h3><?php echo __('백기자 박사', 'korea-bsi')?></h3>
+                <h5><?php echo __('연구소장', 'korea-bsi')?></h5>
             </div>
             <div class="info-group elementor-widget">
                 <div class="career">
-                    <h6>학력 및 경력</h6>
-                    뇌과학 박사(뉴로피드백)<br/>
-                    現)한국뇌과학연구소 연구소장<br/>
-                    現)국제차세대융합기술학회 부회장(등기이사)<br/>
-                    前) 서울불교대학원대학교 뇌과학 전공교수
+                    <h6><?php echo __('학력 및 경력', 'korea-bsi')?></h6>
+                    <?php echo __('뇌과학 박사(뉴로피드백)', 'korea-bsi')?><br/>
+                    <?php echo __('現)한국뇌과학연구소 연구소장', 'korea-bsi')?><br/>
+                    <?php echo __('現)국제차세대융합기술학회 부회장(등기이사)', 'korea-bsi')?><br/>
+                    <?php echo __('前) 서울불교대학원대학교 뇌과학 전공교수', 'korea-bsi')?>
                 </div>
                 <div class="lecture">
-                    <h6>강의분야</h6>
-                    뉴로피드백<br/>
+                    <h6><?php echo __('강의분야', 'korea-bsi')?></h6>
+                    <?php echo __('뉴로피드백', 'korea-bsi')?><br/>
                 </div>
                 <div class="thesis">
-                    <h6>논문</h6>
-                    NST 훈련이 비만인의 스트레스와 체중조절에 미치는 영향, JNCTA, 7(4) 614-620, 2023 외 KCI 50 여편
+                    <h6><?php echo __('논문', 'korea-bsi')?></h6>
+                    <?php echo __('NST 훈련이 비만인의 스트레스와 체중조절에 미치는 영향, JNCTA, 7(4) 614-620, 2023 외 KCI 50 여편', 'korea-bsi')?>
                 </div>
                 <div class="books">
-                    <h6>저서</h6>
-                    뇌과학의 라이프스타일<br/>
-                    뇌.도형심리 이해와 실제<br/>
-                    브레인디톡스<br/>
-                    키메이커<br/>
-                    뇌를 알면 우리아이의 미래가 열린다<br/>
-                    행복한 뇌를 위한 똑똑한 밥상
+                    <h6><?php echo __('저서', 'korea-bsi')?></h6>
+                    <?php echo __('뇌과학의 라이프스타일', 'korea-bsi')?><br/>
+                    <?php echo __('뇌.도형심리 이해와 실제', 'korea-bsi')?><br/>
+                    <?php echo __('브레인디톡스', 'korea-bsi')?><br/>
+                    <?php echo __('키메이커', 'korea-bsi')?><br/>
+                    <?php echo __('뇌를 알면 우리아이의 미래가 열린다', 'korea-bsi')?><br/>
+                    <?php echo __('행복한 뇌를 위한 똑똑한 밥상', 'korea-bsi')?>
                 </div>
                 <div class="history">
-                    <h6>주요 개발 경력</h6>
-                    BPS [ Brainwave Profiling Service 진로분석 ]<br/>
-                    GPS[Growth Predition Service 키 성장 예측)<br/>
-                    BFA[Brain Function Analysis 뇌기능 분석)<br/>
+                    <h6><?php echo __('주요 개발 경력', 'korea-bsi')?></h6>
+                    <?php echo __('BPS [ Brainwave Profiling Service 진로분석 ]', 'korea-bsi')?><br/>
+                    <?php echo __('GPS[Growth Predition Service 키 성장 예측)', 'korea-bsi')?><br/>
+                    <?php echo __('BFA[Brain Function Analysis 뇌기능 분석)', 'korea-bsi')?><br/>
                 </div>
             </div>
         </div>
@@ -315,37 +315,37 @@ add_shortcode('intro_people', function () {
                 <div class="info-wrapper elementor-widget">
                     <?php if ($career): ?>
                         <div class="career">
-                            <h6>학력 및 경력</h6>
+                            <h6><?php echo __('학력 및 경력', 'korea-bsi')?></h6>
                             <div><?php echo($career); ?></div>
                         </div>
                     <?php endif; ?>
 
                     <?php if ($lecture): ?>
                         <div class="lecture">
-                            <h6>강의분야</h6>
+                            <h6><?php echo __('강의분야', 'korea-bsi')?></h6>
                             <div><?php echo($lecture); ?></div>
                         </div>
                     <?php endif; ?>
                     <?php if ($thesis): ?>
                         <div class="thesis">
-                            <h6>논문</h6>
+                            <h6><?php echo __('논문', 'korea-bsi')?></h6>
                             <div><?php echo($thesis); ?></div>
                         </div>
                     <?php endif; ?>
                     <?php if ($books): ?>
                         <div class="books">
-                            <h6>저서</h6>
+                            <h6><?php echo __('저서', 'korea-bsi')?></h6>
                             <div><?php echo($books); ?></div>
                         </div>
                     <?php endif; ?>
                     <?php if ($history): ?>
                         <div class="history">
-                            <h6>자격 및 주요 강의 경력</h6>
+                            <h6><?php echo __('자격 및 주요 강의 경력', 'korea-bsi')?></h6>
                             <div><?php echo($history); ?></div>
                         </div>
                     <?php endif; ?>
                 </div>
-                <button class="button btn toggle-btn elementor-widget" data-toggle="close">더보기</button>
+                <button class="button btn toggle-btn elementor-widget" data-toggle="close"><?php echo __('더보기', 'korea-bsi')?></button>
             </div>
 
         <?php endwhile; ?>

@@ -64,7 +64,7 @@ if ($page_structure === 'none' || blocksy_post_uses_vc()) {
     <!-- 🔲 반투명 오버레이 -->
     <div class="videoOverlay"></div>
     <div id="introLogo">
-        <img src="/wp-content/themes/blocksy-child/assets/images/logo/korea-bsi-logo-white.png" alt="Site Logo">
+        <img src="/wp-content/themes/blocksy-child/assets/images/logo/korea-bsi-logo-white-color.png" alt="Site Logo">
     </div>
     <div id="revealMask"></div>
 </div>
@@ -96,7 +96,7 @@ if ($page_structure === 'none' || blocksy_post_uses_vc()) {
     <div class="intro-page">
         <section id="aboutSection">
             <div class="content-wrapper">
-                <h1>한국뇌과학연구소는 뉴로피드백분야의 연구와 교육을 전문으로 하는 기관입니다</h1>
+                <h1>뉴로피드백분야의 연구와 교육을 전문으로 하는 기관입니다</h1>
                 <h4>한국뇌과학연구소는 뇌의 가능성을 과학으로 증명하고, 당신의 삶 속 실질적인 변화로 연결합니다</h4>
             </div>
             <div class="pin-gallery">
@@ -121,7 +121,7 @@ if ($page_structure === 'none' || blocksy_post_uses_vc()) {
                 <div class="ct-container">
                     <div class="service-box box-1">
                         <h3>뇌파 훈련</h3>
-                        <p>현재 뇌파 데이터를 기반으로 한 맞춤형 훈련</p>
+                        <p>분석 뇌파 데이터를 기반으로 한 맞춤형 훈련</p>
                     </div>
                     <div class="service-box box-2">
                         <h3>뇌파 검사</h3>
@@ -132,8 +132,8 @@ if ($page_structure === 'none' || blocksy_post_uses_vc()) {
                         <p>집중력, 힐링, 정서 조절을 위한 통합 솔루션</p>
                     </div>
                     <div class="service-box box-4">
-                        <h3>뇌교육사 자격 교육</h3>
-                        <p>전문가 양성을 위한 공식 교육 프로그램</p>
+                        <h3>자격과정과 교육 프로그램</h3>
+                        <p>뇌 전문가 양성을 위한 공식 교육과정</p>
                     </div>
                 </div>
             </div>
@@ -146,8 +146,9 @@ if ($page_structure === 'none' || blocksy_post_uses_vc()) {
             </div>
             <div class="info-wrapper">
                 <p>
-                    뉴로피드백은 뇌파를 실시간으로 측정하고 피드백을 제공하여 뇌 활동을 조절하고 개선하는 훈련 기법입니다.
-                    뇌파(EEG)를 감지하여 시각적, 청각적 신호로 사용자에게 제공함으로써 스스로 뇌의 특정 패턴을 조절하도록 유도하는 방식입니다.
+                    뉴로피드백은 뇌파를 이용하여 뇌의 항상성 자기조절 능력을 강화하여
+                    뇌의 가소성을 향상시키고, 뇌신경 조직과 네트워크의 재조직 또는
+                    재구성을 통하여 뇌를 스스로 활성화시키는 과학적이고 효과적인 방법입니다.
                 </p>
             </div>
             <div class="products-wrapper">
@@ -201,8 +202,8 @@ if ($page_structure === 'none' || blocksy_post_uses_vc()) {
         <section id="lastSection">
             <div class="ct-container">
                 <div class="action-wrapper elementor-widget">
-                    <h1>지금, 당신의 뇌와 대화해보세요</h1>
-                    <a href="#" class="button">뇌파검사 자세히보기</a>
+                    <h1>우리의 뇌는 올바른 라이프 스타일과 훈련에 의해 최적화 됩니다</h1>
+                    <a href="/port-1" class="button">뇌파검사 자세히보기</a>
                 </div>
             </div>
         </section>
