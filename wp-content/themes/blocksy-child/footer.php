@@ -93,11 +93,11 @@ do_action('blocksy:footer:after');
         if (status === 'close') {
             jQuery(this).prev().addClass('open');
             jQuery(this).data('toggle', 'open');
-            jQuery(this).html('접기');
+            jQuery(this).html('Collapse');
         } else {
             jQuery(this).prev().removeClass('open');
             jQuery(this).data('toggle', 'close');
-            jQuery(this).html('더보기');
+            jQuery(this).html('More');
         }
     });
 </script>

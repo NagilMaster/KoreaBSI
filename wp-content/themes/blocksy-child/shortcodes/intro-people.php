@@ -345,7 +345,7 @@ add_shortcode('intro_people', function () {
                         </div>
                     <?php endif; ?>
                 </div>
-                <button class="button btn toggle-btn elementor-widget" data-toggle="close"><?php echo __('더보기', 'korea-bsi')?></button>
+                <button class="button btn toggle-btn elementor-widget" data-toggle="close">More</button>
             </div>
 
         <?php endwhile; ?>
