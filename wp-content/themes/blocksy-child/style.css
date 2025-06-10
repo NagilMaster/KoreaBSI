@@ -47,6 +47,21 @@ body {
     }
 }
 
+/*Popup*/
+.pum .pum-content {
+    p {
+        margin-bottom: 0;
+    }
+}
+
+@media(max-width: 767px) {
+    .pum .pum-content {
+        h2 {
+            font-size: 20px;
+        }
+    }
+}
+
 /*Footer*/
 .footer-section{
     position: relative;

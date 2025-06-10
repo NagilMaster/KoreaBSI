@@ -202,8 +202,11 @@ if ($page_structure === 'none' || blocksy_post_uses_vc()) {
         <section id="lastSection">
             <div class="ct-container">
                 <div class="action-wrapper elementor-widget">
-                    <h1>우리의 뇌는 올바른 라이프 스타일과 훈련에 의해 최적화 됩니다</h1>
-                    <a href="/port-1" class="button">뇌파검사 자세히보기</a>
+                    <div class="text-wrapper">
+                        <h1>뉴로피드백 훈련, 뇌 변화의 과학적 증거</h1>
+                        <p>뇌파 측정으로 증명된 훈련 전후의 변화, 지금 바로 실제 포트폴리오에서 확인해보세요</p>
+                    </div>
+                    <a href="/port-1" class="button">변화 보러가기</a>
                 </div>
             </div>
         </section>
