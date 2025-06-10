@@ -91,7 +91,7 @@ if ($page_structure === 'none' || blocksy_post_uses_vc()) {
                     <div class="swiper-carousel-animate-opacity">
                         <img src="/wp-content/themes/blocksy-child/assets/images/front-page/product-2.jpeg" alt="">
                         <div class="slide-content">
-                            <h3>NST(Neuro Sound Technology) 1</h3>
+                            <h3>NST(Neuro Sound Technology)</h3>
                             <p>자연의 소리, 배경음악, 바이너럴비트(Binaural beat), 모노럴비트(Monaural beat), 아이소크로닉(Isochronic) 등으로 구성된 소리와 특정 주파수를 이용하여 뇌파를 동기화하고, 뇌기능의 균형과 통합, 전 대역 뇌파 훈련을 유도하는 도구.</p>
                         </div>
                     </div>
@@ -100,7 +100,7 @@ if ($page_structure === 'none' || blocksy_post_uses_vc()) {
                     <div class="swiper-carousel-animate-opacity">
                         <img src="/wp-content/themes/blocksy-child/assets/images/front-page/product-3.jpeg" alt="">
                         <div class="slide-content">
-                            <h3>PowerNap 1</h3>
+                            <h3>PowerNap</h3>
                             <p>훈련자의 뇌파를 자동으로 측정, 분석하여 뇌파의 상태에 따라 피드백을 제공하고 뇌의 항상성과 특히 수면 유도 기능을 향상시키는 훈련기</p>
                         </div>
                     </div>
@@ -118,7 +118,7 @@ if ($page_structure === 'none' || blocksy_post_uses_vc()) {
                     <div class="swiper-carousel-animate-opacity">
                         <img src="/wp-content/themes/blocksy-child/assets/images/front-page/product-6.jpeg" alt="">
                         <div class="slide-content">
-                            <h3>NST(Neuro Sound Technology) 2</h3>
+                            <h3>NST(Neuro Sound Technology)</h3>
                             <p>인지기능향상, 힐링기능등 다양한 증상의 개선과 사용자의 목적에 따라 훈련이 가능하며, 휴대성과 편리함이 장점</p>
                         </div>
                     </div>
@@ -136,7 +136,7 @@ if ($page_structure === 'none' || blocksy_post_uses_vc()) {
                     <div class="swiper-carousel-animate-opacity">
                         <img src="/wp-content/themes/blocksy-child/assets/images/front-page/product-7.jpeg" alt="">
                         <div class="slide-content">
-                            <h3>PowerNap2</h3>
+                            <h3>PowerNap</h3>
 <!--                            <p>자동 뇌파측정과 분석 후 훈련자에 맞는 주파수와 사운드 설정 30분 세팅으로 휴대성과 간편사용이 장점 43가지 훈련 프로그램 장착</p>-->
                             <p>간편하게 휴대용으로 사용할 수 있으며, 트라우마, 리셋 기능, 훈련 시간은 30분, 43가지 훈련 프로그램 장착</p>
                         </div>
