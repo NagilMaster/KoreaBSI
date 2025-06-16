@@ -15,6 +15,7 @@ body {
 }
 
 /* Academi */
+#contact-grid .e-con-inner > div,
 .license-container > div {
     align-self: flex-start;
 }
