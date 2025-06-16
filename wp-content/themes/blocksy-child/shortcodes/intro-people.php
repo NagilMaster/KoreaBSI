@@ -22,6 +22,10 @@ add_shortcode('intro_people', function () {
                 padding: 30px;
                 padding-top: 0;
 
+                hr {
+                    margin: 2px 0;
+                }
+
                 .name-title {
                     display: flex;
                     flex-direction: row;
@@ -63,6 +67,10 @@ add_shortcode('intro_people', function () {
                 width: calc(20% - 15px);
                 margin-right: 15px;
                 margin-bottom: 60px;
+
+                hr {
+                    margin: 2px 0;
+                }
 
                 .thumbnail-wrapper {
                     position: relative;
@@ -258,14 +266,14 @@ add_shortcode('intro_people', function () {
             <div class="info-group elementor-widget">
                 <div class="career">
                     <h6><?php echo __('학력 및 경력', 'korea-bsi')?></h6>
-                    <?php echo __('뇌과학 박사 (뉴로피드백)', 'korea-bsi')?><br/>
-                    <?php echo __('現) 한국뇌과학연구소 연구소장', 'korea-bsi')?><br/>
-                    <?php echo __('現) 국제차세대융합기술학회 부회장 (등기이사)', 'korea-bsi')?><br/>
+                    <?php echo __('뇌과학 박사 (뉴로피드백)', 'korea-bsi')?><hr/>
+                    <?php echo __('現) 한국뇌과학연구소 연구소장', 'korea-bsi')?><hr/>
+                    <?php echo __('現) 국제차세대융합기술학회 부회장 (등기이사)', 'korea-bsi')?><hr/>
                     <?php echo __('前) 서울불교대학원대학교 교수', 'korea-bsi')?>
                 </div>
                 <div class="lecture">
                     <h6><?php echo __('강의분야', 'korea-bsi')?></h6>
-                    <?php echo __('뉴로피드백', 'korea-bsi')?><br/>
+                    <?php echo __('뉴로피드백', 'korea-bsi')?><hr/>
                 </div>
                 <div class="thesis">
                     <h6><?php echo __('논문', 'korea-bsi')?></h6>
@@ -273,18 +281,18 @@ add_shortcode('intro_people', function () {
                 </div>
                 <div class="books">
                     <h6><?php echo __('저서', 'korea-bsi')?></h6>
-                    <?php echo __('뇌과학의 라이프스타일', 'korea-bsi')?><br/>
-                    <?php echo __('뇌.도형심리 이해와 실제', 'korea-bsi')?><br/>
-                    <?php echo __('브레인디톡스', 'korea-bsi')?><br/>
-                    <?php echo __('키메이커', 'korea-bsi')?><br/>
-                    <?php echo __('뇌를 알면 우리아이의 미래가 열린다', 'korea-bsi')?><br/>
+                    <?php echo __('뇌과학의 라이프스타일', 'korea-bsi')?><hr/>
+                    <?php echo __('뇌.도형심리 이해와 실제', 'korea-bsi')?><hr/>
+                    <?php echo __('브레인디톡스', 'korea-bsi')?><hr/>
+                    <?php echo __('키메이커', 'korea-bsi')?><hr/>
+                    <?php echo __('뇌를 알면 우리아이의 미래가 열린다', 'korea-bsi')?><hr/>
                     <?php echo __('행복한 뇌를 위한 똑똑한 밥상', 'korea-bsi')?>
                 </div>
                 <div class="history">
                     <h6><?php echo __('주요 개발 경력', 'korea-bsi')?></h6>
-                    <?php echo __('BPS (Brainwave Profiling Service) - 진로분석', 'korea-bsi')?><br/>
-                    <?php echo __('GPS (Growth Predition Service) - 키 성장 예측', 'korea-bsi')?><br/>
-                    <?php echo __('BFA (Brain Function Analysis) - 뇌기능 분석', 'korea-bsi')?><br/>
+                    <?php echo __('BPS (Brainwave Profiling Service) - 진로분석', 'korea-bsi')?><hr/>
+                    <?php echo __('GPS (Growth Predition Service) - 키 성장 예측', 'korea-bsi')?><hr/>
+                    <?php echo __('BFA (Brain Function Analysis) - 뇌기능 분석', 'korea-bsi')?><hr/>
                 </div>
             </div>
         </div>
