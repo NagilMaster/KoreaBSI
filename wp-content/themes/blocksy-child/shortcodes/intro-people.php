@@ -258,10 +258,10 @@ add_shortcode('intro_people', function () {
             <div class="info-group elementor-widget">
                 <div class="career">
                     <h6><?php echo __('학력 및 경력', 'korea-bsi')?></h6>
-                    <?php echo __('뇌과학 박사(뉴로피드백)', 'korea-bsi')?><br/>
-                    <?php echo __('現)한국뇌과학연구소 연구소장', 'korea-bsi')?><br/>
-                    <?php echo __('現)국제차세대융합기술학회 부회장(등기이사)', 'korea-bsi')?><br/>
-                    <?php echo __('前) 서울불교대학원대학교 뇌과학 전공교수', 'korea-bsi')?>
+                    <?php echo __('뇌과학 박사 (뉴로피드백)', 'korea-bsi')?><br/>
+                    <?php echo __('現) 한국뇌과학연구소 연구소장', 'korea-bsi')?><br/>
+                    <?php echo __('現) 국제차세대융합기술학회 부회장 (등기이사)', 'korea-bsi')?><br/>
+                    <?php echo __('前) 서울불교대학원대학교 교수', 'korea-bsi')?>
                 </div>
                 <div class="lecture">
                     <h6><?php echo __('강의분야', 'korea-bsi')?></h6>
@@ -269,7 +269,7 @@ add_shortcode('intro_people', function () {
                 </div>
                 <div class="thesis">
                     <h6><?php echo __('논문', 'korea-bsi')?></h6>
-                    <?php echo __('NST 훈련이 비만인의 스트레스와 체중조절에 미치는 영향, JNCTA, 7(4) 614-620, 2023 외 KCI 50 여편', 'korea-bsi')?>
+                    <?php echo __('NST 훈련이 비만인의 스트레스와 체중감량에 미치는 영향 외 KCI 저널 50여 편', 'korea-bsi')?>
                 </div>
                 <div class="books">
                     <h6><?php echo __('저서', 'korea-bsi')?></h6>
@@ -282,9 +282,9 @@ add_shortcode('intro_people', function () {
                 </div>
                 <div class="history">
                     <h6><?php echo __('주요 개발 경력', 'korea-bsi')?></h6>
-                    <?php echo __('BPS [ Brainwave Profiling Service 진로분석 ]', 'korea-bsi')?><br/>
-                    <?php echo __('GPS[Growth Predition Service 키 성장 예측)', 'korea-bsi')?><br/>
-                    <?php echo __('BFA[Brain Function Analysis 뇌기능 분석)', 'korea-bsi')?><br/>
+                    <?php echo __('BPS (Brainwave Profiling Service) - 진로분석', 'korea-bsi')?><br/>
+                    <?php echo __('GPS (Growth Predition Service) - 키 성장 예측', 'korea-bsi')?><br/>
+                    <?php echo __('BFA (Brain Function Analysis) - 뇌기능 분석', 'korea-bsi')?><br/>
                 </div>
             </div>
         </div>
