@@ -269,7 +269,7 @@ add_shortcode('intro_people', function () {
                     <?php echo __('뇌과학 박사 (뉴로피드백)', 'korea-bsi')?><hr/>
                     <?php echo __('現) 한국뇌과학연구소 연구소장', 'korea-bsi')?><hr/>
                     <?php echo __('現) 국제차세대융합기술학회 부회장 (등기이사)', 'korea-bsi')?><hr/>
-                    <?php echo __('前) 서울불교대학원대학교 교수', 'korea-bsi')?>
+                    <?php echo __('前) 서울불교대학원대학교 뇌과학 전공교수', 'korea-bsi')?>
                 </div>
                 <div class="lecture">
                     <h6><?php echo __('강의분야', 'korea-bsi')?></h6>
