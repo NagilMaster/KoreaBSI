@@ -17,6 +17,15 @@ body {
         text-decoration: none;
         color: #eaeaea;
     }
+
+    #offcanvas .ct-language-switcher {
+        .current-lang a {
+            color: var(--theme-link-hover-color);;
+        }
+        a {
+            color: var(--theme-link-initial-color);
+        }
+    }
 }
 
 /* Academi */
@@ -24,23 +33,27 @@ body {
 .license-container > div {
     align-self: flex-start;
 }
-.process-container .elementor-widget-container{
+
+.process-container .elementor-widget-container {
     flex: 1;
     aspect-ratio: 1 / 1;
     display: flex;
     flex-direction: column;
     justify-content: center;
+
     h4 {
         font-size: 45px;
         font-weight: 900;
         margin-bottom: 10px;
     }
 }
-#gallery .elementor-widget-container .elementor-image-carousel-wrapper .elementor-image-carousel{
+
+#gallery .elementor-widget-container .elementor-image-carousel-wrapper .elementor-image-carousel {
     figure {
-        height: 300px;          /* 고정 높이 */
-        overflow: hidden;       /* 넘어가면 자르기 */
+        height: 300px; /* 고정 높이 */
+        overflow: hidden; /* 넘어가면 자르기 */
         position: relative;
+
         img {
             position: absolute;
             top: 50%;
@@ -60,11 +73,12 @@ body {
     }
 }
 
-@media(max-width: 767px) {
+@media (max-width: 767px) {
     .pum .pum-content {
         h2 {
             font-size: 20px;
         }
+
         p {
             font-size: 14px !important;
         }
@@ -72,23 +86,23 @@ body {
 }
 
 /*Footer*/
-.footer-section{
+.footer-section {
     position: relative;
-    width:100%;
-    min-height:100vh;
-    display:flex;
-    align-items:center;
-    justify-content:center;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background: #000;
 
     .text-block {
-        margin:15vw;
-        max-width:800px;
+        margin: 15vw;
+        max-width: 800px;
         font-family: "Space Mono", monospace;
         font-weight: 400;
         font-style: normal;
         font-size: clamp(16px, 4vw, 30px);
-        color:#fff;
+        color: #fff;
         z-index: 10;
     }
 }
@@ -100,6 +114,10 @@ body {
 
 /*Animation*/
 @keyframes ani_circle {
-    0%{ clip-path:circle(90px at 50% 51%); }
-    100%{clip-path:circle(200% at 50% 51%);}
+    0% {
+        clip-path: circle(90px at 50% 51%);
+    }
+    100% {
+        clip-path: circle(200% at 50% 51%);
+    }
 }
