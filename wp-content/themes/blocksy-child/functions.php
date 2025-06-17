@@ -23,6 +23,8 @@ add_action('after_setup_theme', 'korea_bsi_theme_setup');
 /* GSAP */
 require_once $_SERVER['DOCUMENT_ROOT'].'/wp-content/themes/blocksy-child/init/gsap.php';
 
+// SEO
+require_once $_SERVER['DOCUMENT_ROOT'].'/wp-content/themes/blocksy-child/init/seo.php';
 
 /* Shortcodes */
 require_once $_SERVER['DOCUMENT_ROOT'].'/wp-content/themes/blocksy-child/shortcodes/main-slogan.php';
