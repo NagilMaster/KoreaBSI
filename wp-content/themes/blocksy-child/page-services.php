@@ -91,7 +91,7 @@ if ($page_structure === 'none' || blocksy_post_uses_vc()) {
                     <div class="swiper-carousel-animate-opacity">
                         <img src="/wp-content/themes/blocksy-child/assets/images/front-page/product-2.jpeg" alt="">
                         <div class="slide-content">
-                            <h3>NST(Neuro Sound Technology)</h3>
+                            <h3>MIT (Mighty Intergration Technology)</h3>
                             <p>자연의 소리, 배경음악, 바이너럴비트(Binaural beat), 모노럴비트(Monaural beat), 아이소크로닉(Isochronic) 등으로 구성된 소리와 특정 주파수를 이용하여 뇌파를 동기화하고, 뇌기능의 균형과 통합, 전 대역 뇌파 훈련을 유도하는 도구.</p>
                         </div>
                     </div>
@@ -118,7 +118,7 @@ if ($page_structure === 'none' || blocksy_post_uses_vc()) {
                     <div class="swiper-carousel-animate-opacity">
                         <img src="/wp-content/themes/blocksy-child/assets/images/front-page/product-6.jpeg" alt="">
                         <div class="slide-content">
-                            <h3>NST(Neuro Sound Technology)</h3>
+                            <h3>MIT (Mighty Intergration Technology)</h3>
                             <p>인지기능향상, 힐링기능등 다양한 증상의 개선과 사용자의 목적에 따라 훈련이 가능하며, 휴대성과 편리함이 장점</p>
                         </div>
                     </div>
